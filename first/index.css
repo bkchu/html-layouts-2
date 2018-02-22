@@ -1,0 +1,111 @@
+body {
+  padding: 20px;
+}
+
+/* <section class="header">
+    <div class="header__card header__card--red"></div>
+    <div class="header__card header__card--blue"></div>
+    <div class="header__card header__card--gray"></div>
+  </section>
+
+  <section class="body-text">
+    <div class="body-text__p1">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Recusandae iusto voluptates blanditiis ut. Hic molestias, facilis
+      illum perspiciatis sed voluptatibus sunt corporis quas sequi quidem dolorem neque deleniti nisi odio?</divcl>
+      <div class="body-text__p2">Lorem ipsum dolor sit amet consectetur adipisicing elit. Corrupti esse consectetur harum, tenetur, necessitatibus quisquam
+        ullam porro unde ratione architecto expedita facilis dolorum, dolores minus optio beatae hic error laudantium!</div>
+  </section>
+
+  <section class="body-graphics">
+    <div class="body-graphics__card body-graphics__card--red"></div>
+    <div class="body-graphics__card body-graphics__card--blue"></div>
+  </section>
+
+  <section class="footer">
+    <div class="footer__el1">
+      <div class="footer__el2">
+        <div class="footer__el3"></div>
+      </div>
+    </div>
+  </section> */
+
+.header {
+  width: 100%;
+  height: 250px;
+
+  display: flex;
+  justify-content: space-between;
+
+  margin-bottom: 20px;
+  text-align: center;
+}
+
+.header__card {
+  width: 32%;
+  height: 100%;
+}
+
+.header__card--red {
+  background-color: #d0021b;
+}
+.header__card--blue {
+  background-color: #4a90e2;
+}
+.header__card--gray {
+  background-color: #4a4a4a;
+}
+
+.body-text {
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen,
+    Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+  font-size: 1.2em;
+  line-height: 1.5em;
+  margin: 40px auto;
+}
+
+.body-graphics {
+  height: 400px;
+  width: 100%;
+  margin: 20px auto;
+  display: flex;
+}
+
+.body-graphics__card {
+  height: 100%;
+}
+
+.body-graphics__card--red {
+  width: 33%;
+  background-color: #d0021b;
+  flex: 1;
+}
+
+.body-graphics__card--blue {
+  width: 55%;
+  background-color: #4a90e2;
+  flex: 2;
+}
+
+.footer {
+  height: 250px;
+  width: 100%;
+  display: flex;
+}
+
+.footer__el1 {
+  flex: 2;
+  height: 100%;
+  background-color: #4a90e2;
+}
+
+.footer__el2 {
+  flex: 1;
+  height: 100%;
+  background-color: #d0021b;
+}
+
+.footer__el3 {
+  width: 70%;
+  height: 100%;
+  margin: 0 auto;
+  background-color: #4a4a4a;
+}
