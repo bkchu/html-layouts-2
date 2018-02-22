@@ -1,0 +1,100 @@
+/* <div class="container">
+    <section class="dialogue">
+      <p class="dialogue__text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Sed, ipsum harum suscipit dicta praesentium quibusdam quae
+        iusto accusantium molestias odio accusamus ratione rem nisi repudiandae blanditiis quidem modi sit aperiam?Placeat
+        illum nemo, esse sapiente magnam odio rem cupiditate alias sint neque ratione ut aspernatur? Soluta, alias beatae?
+        Exercitationem dolorem corporis nihil eligendi voluptate! Explicabo quaerat assumenda voluptate vero recusandae!</p>
+      <button class="dialogue__button dialogue__button--red"></button>
+      <button class="dialogue__button dialogue__button--blue"></button>
+    </section>
+
+    <section class="polaroid">
+      <img src="" alt="" class="polaroid__img">
+      <p class="polaroid__caption"></p>
+    </section>
+
+    <section class="footer">
+      <div class="footer__nav-item">Apple</div>
+      <div class="footer__nav-item">Google</div>
+    </section>
+  </div>
+ */
+
+html,
+body {
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen,
+    Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+
+  box-sizing: border-box;
+  background-color: rgb(213, 213, 213);
+}
+
+.container {
+  height: 100%;
+  width: 100%;
+}
+
+.dialogue {
+  height: 20%;
+  width: 80%;
+  margin: 40px auto;
+  padding: 45px;
+  background-color: white;
+}
+
+.dialogue__text {
+  margin-bottom: 40px;
+  font-size: 1.2em;
+  line-height: 1.5em;
+}
+
+.dialogue__button {
+  width: 200px;
+  height: 60px;
+  margin: 20px 10px;
+  margin-left: 0;
+  padding: 5px;
+
+  border: 2px solid gray;
+  color: white;
+  font-size: 1.5em;
+}
+/* 
+.header__card--red {
+  background-color: #d0021b;
+}
+.header__card--blue {
+  background-color: #4a90e2;
+}
+.header__card--gray {
+  background-color: #4a4a4a; */
+
+.dialogue__button--red {
+  background-color: #d0021b;
+}
+
+.dialogue__button--blue {
+  background-color: #4a90e2;
+}
+
+.polaroid {
+  height: 1000px;
+  width: 80%;
+  margin: 40px auto;
+  padding: 45px;
+  background-color: white;
+}
+
+.polaroid__img {
+  width: 100%;
+  height: 80%;
+  margin-bottom: 40px;
+  background-image: url("https://images.unsplash.com/photo-1504278524404-ef6a2b4c86f7?ixlib=rb-0.3.5&ixid=eyJhcHBfaWQiOjEyMDd9&s=176a32dd3fafbabfd0c3a1e6494c646b&auto=format&fit=crop&w=1052&q=80");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: 50% 50%;
+}
+.polaroid__caption {
+  font-size: 1.2em;
+  line-height: 1.5em;
+}

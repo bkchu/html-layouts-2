@@ -1,0 +1,108 @@
+/* <nav class="nav">
+<div class="nav__button">Apple</div>
+<div class="nav__button">Google</div>
+</nav>
+
+<section class="body">
+<div class="body__column body__column--left">
+  <h1 class="body__header">A Million Dreams</h1>
+  <pre class="body__text">
+Spicy jalapeno bacon ipsum dolor amet pork loin shoulder jowl corned beef kevin tenderloin. Strip steak filet mignon rump tenderloin t-bone turducken. Pig cow flank, turducken chicken ham meatball venison pork belly jerky short loin picanha ham hock doner. Ground round burgdoggen meatloaf ball tip biltong, alcatra leberkas jerky pork loin kielbasa sausage. Rump bresaola jowl, beef pastrami filet mignon pork sausage. Venison bresaola pig landjaeger frankfurter shankle pork salami kielbasa.
+
+Porchetta strip steak tongue shank burgdoggen, chicken ball tip kevin pancetta. Tenderloin beef ribs shoulder, doner pork chop spare ribs beef landjaeger. Porchetta sirloin tenderloin, bacon sausage boudin kielbasa. Pork chop cow ribeye flank shoulder cupim shank filet mignon jerky. Pork loin leberkas pork chop short ribs filet mignon. Shoulder beef corned beef ham kevin short ribs prosciutto drumstick burgdoggen. Shankle ham bacon strip steak.
+
+Ribeye shoulder meatball kevin leberkas, jowl sirloin prosciutto. Jerky boudin rump burgdoggen beef shank. Landjaeger pork ribeye cow, porchetta sausage meatloaf prosciutto tail pork loin bresaola tri-tip pork chop turducken. Drumstick meatloaf buffalo, short loin t-bone fatback pastrami tongue. Salami pork chop capicola pork loin alcatra pork ham hock leberkas turkey.
+
+Kielbasa cupim brisket, bacon strip steak meatball boudin venison landjaeger swine. Burgdoggen pork prosciutto ground round picanha corned beef capicola sausage landjaeger meatloaf. Pork beef ribs jerky ribeye drumstick, spare ribs tail meatloaf pastrami corned beef. Landjaeger tail buffalo brisket pastrami prosciutto.
+
+Hamburger ham hock meatball, t-bone chicken spare ribs frankfurter pancetta tongue rump tenderloin salami short loin kevin pork belly. Tenderloin corned beef short ribs swine ball tip shankle. Sausage shankle ribeye, spare ribs ham hock turkey salami tongue doner sirloin hamburger strip steak. Pig doner shoulder, capicola short ribs venison drumstick. Boudin alcatra kevin fatback andouille pork chop shoulder landjaeger sirloin, buffalo spare ribs.
+
+  </pre>
+</div>
+<div class="body__column body__column--right">
+  <div class="body__image"></div>
+  <pre class="body__text">
+Sausage tri-tip buffalo flank, capicola tail short ribs meatloaf shankle beef ribs. T-bone beef boudin swine porchetta bresaola leberkas shankle ribeye landjaeger turkey spare ribs. Prosciutto ham tail bresaola hamburger leberkas pork loin. Buffalo filet mignon jowl salami strip steak. Tail drumstick andouille meatloaf tongue. Shank strip steak tail tenderloin picanha swine. Landjaeger shoulder pastrami swine pancetta frankfurter prosciutto.
+
+Rump leberkas beef chuck, sausage short loin t-bone cupim brisket corned beef. Pig porchetta hamburger, ham hock beef jowl salami meatloaf jerky swine rump prosciutto ribeye picanha. Brisket picanha salami venison porchetta prosciutto rump tri-tip strip steak. Chicken pork beef ribs bacon cupim landjaeger swine frankfurter tri-tip turducken meatloaf shank ham hock. Tenderloin sirloin tail meatball pork chop short ribs drumstick tongue ball tip. Beef swine salami flank kielbasa meatball.
+  </pre>
+</div>
+</section> */
+
+html,
+body {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen,
+    Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+  font-size: calc(3vw + 3vh + 2vmin);
+}
+
+h1 {
+  font-size: 0.85em;
+}
+
+p,
+pre {
+  font-size: 0.2em;
+}
+
+.nav {
+  height: 75px;
+  width: 100%;
+  background-color: #333333;
+  font-size: 0.2em;
+  color: white;
+}
+
+.nav__button {
+  height: auto;
+  width: 50px;
+  padding: 30px 5px;
+  margin: 0 25px;
+  text-align: center;
+  display: inline-block;
+  cursor: pointer;
+}
+
+.body {
+  height: 100%;
+  width: 80%;
+  margin: 0 auto;
+  padding: 40px 0;
+  display: flex;
+  justify-content: center;
+}
+
+.body__column {
+  margin: 0.2em;
+  flex: 1;
+}
+
+.body__column--left .body__header {
+  height: auto;
+  width: 100%;
+  margin: 0 auto;
+  margin-bottom: 20px;
+}
+
+.body__column--right .body__image {
+  width: 100%;
+  height: 500px;
+  margin-bottom: 20px;
+  background-image: url("https://images.unsplash.com/photo-1504278524404-ef6a2b4c86f7?ixlib=rb-0.3.5&ixid=eyJhcHBfaWQiOjEyMDd9&s=176a32dd3fafbabfd0c3a1e6494c646b&auto=format&fit=crop&w=1052&q=80");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: 50% 50%;
+}
+
+.body__text {
+  line-height: 1.5em;
+}
+
+.footer {
+  height: 75px;
+  width: 100%;
+  background-color: #333333;
+}
